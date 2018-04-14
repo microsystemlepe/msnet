@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.msnetwork"
-	name="MicroSystem NETWORK"
+<addon id="plugin.video.UC0LdsMFyFC8No4FG9atGEYA"
+	name="Canal MS Network"
 	version="1.0.2"
 	provider-name="MicroSystem">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -19,12 +18,8 @@
     </extension>
   
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">MicroSystem NETWORK</summary>
-    <description lang="en">Salta a la fama!</description>
+    <summary lang="en">MicroSystem Network</summary>
+    <description lang="en">Los videos de la MCN aparecerán aquí.</description>
     <platform>all</platform>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
   </extension>
 </addon>
