@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.msnetwork"
-	name="MS NETWORK"
-	version="1.0"
+	name="MicroSystem NETWORK"
+	version="1.0.2"
 	provider-name="MicroSystem">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -13,21 +13,21 @@
     <provides>video</provides>
   </extension>
 
-   <extension point="xbmc.addon.repository" name="Mi repositorio">
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/microsystemlepe/msnet/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/microsystemlepe/msnet/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/microsystemlepe/msnet/tree/master/Repositorio</datadir>
     </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary lang="es">MicroSystem NETWORK</summary>
-    <description lang="es">Salta a la fama!</description>
+    <summary lang="en">MicroSystem NETWORK</summary>
+    <description lang="en">Salta a la fama!</description>
     <platform>all</platform>
-		<assets>
+    <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
-		</assets>
-       </extension>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="repository.msnet" name="[COLOR lime]MicroSystem Repository[/COLOR] Repo" version="1.0.2" provider-name="MicroSystem">
