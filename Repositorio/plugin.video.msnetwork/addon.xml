@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.msystemnet"
-	name="MicroSystem NETWORK"
-	version="1.0.3"
+<addon id="plugin.video.msnetwork"
+	name="MS NETWORK"
+	version="1.0"
 	provider-name="MicroSystem">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
     <import addon="plugin.video.youtube" version="5.0.0"/>
   </requires>
@@ -12,16 +12,19 @@
     <provides>video</provides>
   </extension>
   
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
+   <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/microsystemlepe/msnet/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/microsystemlepe/msnet/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/microsystemlepe/msnet/tree/master/Repositorio</datadir>
     </extension>
-	
-	
+  
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">La red multicanal de españa</summary>
-    <description lang="en">Salta a la fama</description>
+    <summary lang="es">MicroSystem NETWORK</summary>
+    <description lang="es">Salta a la fama!</description>
     <platform>all</platform>
-  </extension>
+		<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+		</assets>
+       </extension>
 </addon>
